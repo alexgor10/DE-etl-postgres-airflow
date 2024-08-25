@@ -1,0 +1,12 @@
+psycopg
+pandas
+datetime
+requests
+pandasql
+urllib3
+traceback2
+pyarrow
+fastparquet
+sqlalchemy
+jupyterlab
+psycopg2-binary
