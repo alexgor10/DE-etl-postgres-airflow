@@ -2,6 +2,7 @@
 
 # Define predetermined objectives
 all: build clean init up
+	@echo "Services created, Compose UP!"
 
 build:
 	docker compose build
