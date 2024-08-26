@@ -22,6 +22,7 @@ x-airflow-common: &airflow-common
   env_file:
     - ./config/airflow_db.env
     - ./config/processing_db.env
+    - ./config/postgres_db.env
   volumes:
     - ${AIRFLOW_PROJ_DIR:-./airflow}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-./airflow}/logs:/opt/airflow/logs

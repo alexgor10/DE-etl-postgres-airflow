@@ -4,7 +4,7 @@ import traceback
 import logging
 
 url = 'https://raw.githubusercontent.com/xploiterx/datasets/master/Proyect-0/CSV/Churn_Modelling-1.csv'
-dest_folder = './data'
+dest_folder = '/opt/airflow/data'
 destination_path = f'{dest_folder}/Churn_Modelling-1.csv'
 
 def download_file_from_url(url: str, dest: str):

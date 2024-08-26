@@ -10,7 +10,7 @@ postgres_database = os.environ.get('PROCESSING_DB')
 postgres_user = os.environ.get('POSTGRES_USER')
 postgres_password = os.environ.get('POSTGRES_PASSWORD')
 postgres_port = '5432'
-dest_folder = './data'
+dest_folder = '/opt/airflow/data'
 
 
 def create_connection():
